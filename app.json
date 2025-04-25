@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "keelo",
+    "slug": "keelo",
+    "version": "0.0.1",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#242E1D"
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#242E1D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "icon": {
+        "dark": "./assets/iconng",
+        "light": "./assets/iconpng",
+        "tinted": "./assets/icon.png"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-fg.png",
+        "monochromeImage": "./assets/adaptive-mono.png",
+        "backgroundImage": "./assets/adaptive-bg.png"
+      }
+    }
+  }
+}
